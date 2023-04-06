@@ -1,3 +1,4 @@
+// Colored text
 package main
 
 import (
@@ -33,12 +34,12 @@ func main() {
 	whiteBackground := red.Add(color.BgWhite)
 	whiteBackground.Println("Red text with white background.")
 
-    color.Set(color.FgYellow)
+	color.Set(color.FgYellow)
 
-    fmt.Println(greeting.Hello())
-    logrus.Println("Hello, Hexlet!")
+	fmt.Println(greeting.Hello())
+	logrus.Println("Hello, Hexlet!")
 
-    color.Unset()
+	color.Unset()
 
 }
 
