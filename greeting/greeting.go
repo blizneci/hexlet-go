@@ -3,11 +3,7 @@ package greeting
 
 import "fmt"
 
-const (
-	greeting    = "Golang for Brave!"
-	description = `Это приложение раскрашивает введенный текст в указанные цвета.
-Поддерживается изменение цвета текста, цвета фона текста и дополнительные аттрибуты.`
-)
+const greeting = "Golang for Brave!"
 
 // Hello function returns string to the main function
 func SayHello() {
@@ -16,7 +12,8 @@ func SayHello() {
 
 // Prints description
 func Introduce() {
-	fmt.Println(description)
+	fmt.Println("Это приложение раскрашивает введенный текст в указанные цвета")
+	fmt.Println("Поддерживается изменение цвета текста, цвета фота текста и дополнительные аттрибуты.")
 }
 
 //
